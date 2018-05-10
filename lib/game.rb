@@ -1,4 +1,5 @@
 class Game
   def points
-  end 
+    { "A" => 1, "B" => 3, "T" => 1 }
+  end
 end
