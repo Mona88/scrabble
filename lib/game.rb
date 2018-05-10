@@ -1,2 +1,4 @@
 class Game
-end 
+  def points
+  end 
+end
