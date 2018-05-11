@@ -4,5 +4,6 @@ class Game
   end
 
   def split_word(word)
+    word.split(//) 
   end
 end
