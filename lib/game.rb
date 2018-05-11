@@ -3,6 +3,6 @@ class Game
     { "A" => 1, "B" => 3, "T" => 1 }
   end
 
-  def split_word
-  end 
+  def split_word(word)
+  end
 end
