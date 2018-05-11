@@ -6,4 +6,7 @@ describe Game do
   it 'returns a hash' do
     expect(subject.points).to eq({ "A" => 1, "B" => 3, "T" => 1 })
   end
+
+  it { is_expected.to respond_to :split_word }
+
 end
